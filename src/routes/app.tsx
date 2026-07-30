@@ -105,7 +105,7 @@ function AppShell() {
                 <span className="absolute top-2 right-2 size-1.5 bg-accent rounded-full" />
               </Button>
               <Avatar className="size-9 ring-2 ring-primary/40">
-                <AvatarFallback className="bg-grad-primary text-white text-xs font-semibold">MV</AvatarFallback>
+                <AvatarFallback className="bg-grad-primary text-white text-xs font-semibold">P</AvatarFallback>
               </Avatar>
             </div>
           </header>

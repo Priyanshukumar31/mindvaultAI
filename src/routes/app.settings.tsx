@@ -24,7 +24,7 @@ function SettingsPage() {
         <div className="font-display font-semibold mb-4">Profile</div>
         <div className="flex items-center gap-4">
           <Avatar className="size-16 ring-2 ring-primary/40">
-            <AvatarFallback className="bg-grad-primary text-white text-lg font-semibold">MV</AvatarFallback>
+            <AvatarFallback className="bg-grad-primary text-white text-lg font-semibold">P</AvatarFallback>
           </Avatar>
           <div>
             <Button variant="outline" className="glass border-white/10">Change avatar</Button>
@@ -32,8 +32,8 @@ function SettingsPage() {
           </div>
         </div>
         <div className="grid md:grid-cols-2 gap-4 mt-6">
-          <Field label="Full name" defaultValue="Maya Verma" />
-          <Field label="Email" defaultValue="maya@mindvault.ai" />
+          <Field label="Full name" defaultValue="Priyanshu" />
+          <Field label="Email" defaultValue="priyanshu@mindvault.ai" />
         </div>
       </Card>
 
