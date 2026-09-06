@@ -5,3 +5,8 @@
 [functions]
   directory = ".netlify/functions-internal"
   node_bundler = "none"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
